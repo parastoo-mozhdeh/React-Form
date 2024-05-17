@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  display: flex;
+  align-items: center;
   min-height: 100vh;
+  padding: 10px;
+  background: linear-gradient(115deg, #56d8e4 10%, #d1ddbe 90%);
+}
+
+.button-wrapper {
+  display: flexbox;
+  padding: 10px;
+  background-color: rgb(238, 179, 124);
+  border-radius: 5px;
+  color: rgb(24, 15, 56);
+  border-color: rgb(163, 94, 228);
+  font-size: medium;
+  font-weight: 900;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.form {
+  max-width: 800px;
+  width: 500px;
+  padding: 25px 40px 25px 40px;
+  box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: serif;
+  background: -webkit-linear-gradient(
+    right,
+    #7dcdd3,
+    #80a8d6,
+    #6695db,
+    #acf3e1
+  );
+}
+
+.file {
+  font-size: x-large;
+  color: #110352;
+  align-items: center;
+}
+
+.input-video {
+  margin: auto;
+  background-color: transparent;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #1a0564;
+  font-size: 16px;
 }
